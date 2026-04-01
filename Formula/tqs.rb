@@ -1,14 +1,14 @@
 class Tqs < Formula
   desc "Terminal task queue CLI with Markdown/YAML-backed tasks"
   homepage "https://github.com/andreabergia/tqs"
-  version "0.2.3"
+  version "0.3.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/andreabergia/tqs/releases/download/v0.2.3/tqs-aarch64-apple-darwin.tar.xz"
-    sha256 "cbb42d07a6eb3f7169f8f406134d466a5c7db7ce69fe8ecfd7a5cf213ba62fb8"
+    url "https://github.com/andreabergia/tqs/releases/download/v0.3.0/tqs-aarch64-apple-darwin.tar.xz"
+    sha256 "b6a3c39e5f3b221fd3a150603d3df19dd8b4b58609a094ab9c58f44c8f4d9c01"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/andreabergia/tqs/releases/download/v0.2.3/tqs-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "8113ac85229adc520a0319f9b09a1b99c025f392b1e0765333161cc9877673e8"
+    url "https://github.com/andreabergia/tqs/releases/download/v0.3.0/tqs-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "578357fa9a8846b5bc6024953eff55bb2d5e92b189c7034c8384a40aa1d601c9"
   end
 
   BINARY_ALIASES = {
